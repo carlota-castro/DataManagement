@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T13:22:36.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.0" etag="JJ2s2cwgOEmSSdZpOyHz" type="github"><diagram id="t-Mmstxlc7Xm2mfy3XAt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-16T13:37:59.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="vEzn9Q6mQWDFcjZUVCnR" version="13.8.0" type="github">
+  <diagram id="t-Mmstxlc7Xm2mfy3XAt" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-7" value="CourseSection" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-8" value="&lt;u style=&quot;font-weight: bold&quot;&gt;CourseID&lt;/u&gt;&lt;br&gt;&lt;div&gt;SectionNumber&lt;/div&gt;&lt;div&gt;CourseName&lt;/div&gt;&lt;div&gt;Units&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;b&gt;RoomID&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;RoomCapacity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-7">
+          <mxGeometry x="10" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-9" value="Professor" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-10" value="&lt;u style=&quot;font-weight: bold&quot;&gt;ProfID&lt;/u&gt;&lt;br&gt;&lt;div&gt;ProfName&lt;/div&gt;&lt;div&gt;&lt;span&gt;Title&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;DepartmentID&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DepartmentName&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-9">
+          <mxGeometry x="10" y="30" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-13" value="Student" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-15" value="&lt;u style=&quot;font-weight: bold&quot;&gt;StudentID&lt;/u&gt;&lt;br&gt;StudentName&lt;br&gt;Major" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-13">
+          <mxGeometry x="10" y="30" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-16" value="Period" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="510" y="310" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-17" value="&lt;u style=&quot;font-weight: bold&quot;&gt;SemesterID&lt;/u&gt;&lt;br&gt;Year" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-16">
+          <mxGeometry x="15" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
