@@ -1,11 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T15:43:23.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="g2iFmQPuHckYqe49DBX0" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T17:28:16.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="CnpLtecQbtispTOBkHyr" version="13.8.0" type="github">
   <diagram id="t-Mmstxlc7Xm2mfy3XAt" name="Page-1">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="848" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Y8Ge55y2-l8mE33ceWih-7" value="CourseSection" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="120" y="50" width="120" height="140" as="geometry" />
+          <mxGeometry x="110" y="50" width="120" height="140" as="geometry">
+            <mxRectangle x="120" y="50" width="120" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Y8Ge55y2-l8mE33ceWih-8" value="&lt;u style=&quot;font-weight: bold&quot;&gt;CourseSectionID&lt;/u&gt;&lt;br&gt;&lt;div&gt;CourseID&lt;/div&gt;&lt;div&gt;SectionNumber&lt;/div&gt;&lt;div&gt;CourseName&lt;/div&gt;&lt;div&gt;Units&lt;/div&gt;&lt;div&gt;RoomID&lt;/div&gt;&lt;div&gt;RoomCapacity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-7">
           <mxGeometry x="10" y="30" width="110" height="120" as="geometry" />
