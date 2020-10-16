@@ -1,60 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T17:28:16.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="CnpLtecQbtispTOBkHyr" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T21:12:38.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="PbP3fOp7X7bDUw_s143L" version="13.8.0" type="github">
   <diagram id="t-Mmstxlc7Xm2mfy3XAt" name="Page-1">
-    <mxGraphModel dx="848" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-7" value="CourseSection" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-7" value="CourseSection" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="110" y="50" width="120" height="140" as="geometry">
             <mxRectangle x="120" y="50" width="120" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-8" value="&lt;u style=&quot;font-weight: bold&quot;&gt;CourseSectionID&lt;/u&gt;&lt;br&gt;&lt;div&gt;CourseID&lt;/div&gt;&lt;div&gt;SectionNumber&lt;/div&gt;&lt;div&gt;CourseName&lt;/div&gt;&lt;div&gt;Units&lt;/div&gt;&lt;div&gt;RoomID&lt;/div&gt;&lt;div&gt;RoomCapacity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-7">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-8" value="&lt;u style=&quot;font-weight: bold&quot;&gt;CourseSectionID&lt;/u&gt;&lt;br&gt;&lt;div&gt;CourseID&lt;/div&gt;&lt;div&gt;SectionNumber&lt;/div&gt;&lt;div&gt;CourseName&lt;/div&gt;&lt;div&gt;Units&lt;/div&gt;&lt;div&gt;RoomID&lt;/div&gt;&lt;div&gt;RoomCapacity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Y8Ge55y2-l8mE33ceWih-7" vertex="1">
           <mxGeometry x="10" y="30" width="110" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-9" value="Professor" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-9" value="Professor" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="150" y="270" width="110" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-10" value="&lt;u style=&quot;font-weight: bold&quot;&gt;ProfID&lt;/u&gt;&lt;br&gt;&lt;div&gt;ProfName&lt;/div&gt;&lt;div&gt;&lt;span&gt;Title&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;DepartmentID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DepartmentName&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-9">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-10" value="&lt;u style=&quot;font-weight: bold&quot;&gt;ProfID&lt;/u&gt;&lt;br&gt;&lt;div&gt;ProfName&lt;/div&gt;&lt;div&gt;&lt;span&gt;Title&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;DepartmentID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DepartmentName&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Y8Ge55y2-l8mE33ceWih-9" vertex="1">
           <mxGeometry y="30" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-13" value="Student" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-13" value="Student" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="500" y="110" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-15" value="&lt;u style=&quot;font-weight: bold&quot;&gt;StudentID&lt;/u&gt;&lt;br&gt;StudentName&lt;br&gt;Major" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-13">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-15" value="&lt;u style=&quot;font-weight: bold&quot;&gt;StudentID&lt;/u&gt;&lt;br&gt;StudentName&lt;br&gt;Major" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Y8Ge55y2-l8mE33ceWih-13" vertex="1">
           <mxGeometry x="20" y="30" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-16" value="Period" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-16" value="Period" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="500" y="300" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-17" value="&lt;u style=&quot;font-weight: bold&quot;&gt;SemesterID&lt;/u&gt;&lt;br&gt;Year" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-16">
-          <mxGeometry x="15" y="30" width="80" height="30" as="geometry" />
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-17" value="&lt;u style=&quot;font-weight: bold&quot;&gt;PeriodID&lt;br&gt;&lt;/u&gt;SemesterID&lt;br&gt;Year" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Y8Ge55y2-l8mE33ceWih-16" vertex="1">
+          <mxGeometry x="15" y="20" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-18" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.009;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y8Ge55y2-l8mE33ceWih-10" target="Y8Ge55y2-l8mE33ceWih-24">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-18" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.009;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Y8Ge55y2-l8mE33ceWih-10" target="Y8Ge55y2-l8mE33ceWih-24" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="230" y="360" as="sourcePoint" />
             <mxPoint x="290" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y8Ge55y2-l8mE33ceWih-7">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="Y8Ge55y2-l8mE33ceWih-7" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="250" y="180" as="sourcePoint" />
             <mxPoint x="320" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-24" value="CourseFacts" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-24" value="CourseFacts" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="320" y="170" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-25" value="&lt;u style=&quot;font-weight: bold&quot;&gt;CourseSectionID&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;ProfID&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;StudentID&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;SemesterID&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;CourseGrade&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Y8Ge55y2-l8mE33ceWih-24">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-25" value="&lt;u style=&quot;font-weight: bold&quot;&gt;CourseSectionID&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;ProfID&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;StudentID&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;PeriodID&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;CourseGrade&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Y8Ge55y2-l8mE33ceWih-24" vertex="1">
           <mxGeometry x="10" y="35" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y8Ge55y2-l8mE33ceWih-16" target="Y8Ge55y2-l8mE33ceWih-24">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="Y8Ge55y2-l8mE33ceWih-16" target="Y8Ge55y2-l8mE33ceWih-24" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="360" y="400" as="sourcePoint" />
             <mxPoint x="460" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8Ge55y2-l8mE33ceWih-27" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y8Ge55y2-l8mE33ceWih-13" target="Y8Ge55y2-l8mE33ceWih-24">
+        <mxCell id="Y8Ge55y2-l8mE33ceWih-27" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y8Ge55y2-l8mE33ceWih-13" target="Y8Ge55y2-l8mE33ceWih-24" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="350" y="170" as="sourcePoint" />
             <mxPoint x="440" y="250" as="targetPoint" />
