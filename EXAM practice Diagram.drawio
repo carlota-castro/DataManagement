@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T08:04:50.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8qAPONiX2ei0QKgmYZOk" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T08:36:19.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="0Wd9B2ZaHKLi3FRuxbkO" version="13.8.0" type="github">
   <diagram id="bMVnpUsRe7kVm7hbhH8q" name="Page-1">
-    <mxGraphModel dx="943" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="890" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,14 +58,54 @@
         <mxCell id="C990iu7r9GBEBKF5YpmI-18" value="Cur Bal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="534" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="C990iu7r9GBEBKF5YpmI-19" value="Credit Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="210" width="100" height="20" as="geometry" />
+        <mxCell id="C990iu7r9GBEBKF5YpmI-19" value="CHARGES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="C990iu7r9GBEBKF5YpmI-20" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="C990iu7r9GBEBKF5YpmI-17" target="C990iu7r9GBEBKF5YpmI-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="260" as="sourcePoint" />
             <mxPoint x="510" y="210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-22" value="&lt;b&gt;&lt;u&gt;CAccountID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-23" value="&lt;b&gt;&lt;u&gt;MerchID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-24" value="Charge Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-25" value="Charge Time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-26" value="Amount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-27" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="C990iu7r9GBEBKF5YpmI-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="341" as="sourcePoint" />
+            <mxPoint x="510" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-28" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-29" value="&lt;b&gt;&lt;u&gt;Merch ID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-31" value="Merch Addr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-32" value="" style="endArrow=classic;html=1;exitX=0.408;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C990iu7r9GBEBKF5YpmI-29" target="C990iu7r9GBEBKF5YpmI-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <mxPoint x="510" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-33" value="MERCHANT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
