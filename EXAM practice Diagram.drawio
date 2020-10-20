@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T08:51:17.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="azSxi9q9nKc2WCIfhokw" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T08:53:30.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_FPbb70hDsUHZ9eLaGA-" version="13.8.0" type="github">
   <diagram id="bMVnpUsRe7kVm7hbhH8q" name="Page-1">
     <mxGraphModel dx="751" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,6 +167,21 @@
         </mxCell>
         <mxCell id="C990iu7r9GBEBKF5YpmI-48" value="Description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="770" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-49" value="&lt;b&gt;&lt;u&gt;Vendor Name&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="860" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-50" value="Address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="860" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-51" value="&lt;u&gt;&lt;b&gt;Part No&lt;/b&gt;&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="960" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-52" value="&lt;b&gt;&lt;u&gt;Vendor Name&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="960" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-53" value="Unit cost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="960" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
