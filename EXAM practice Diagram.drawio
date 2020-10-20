@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T07:51:29.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.0" etag="ayifgEubblhB82anSqpp" type="github"><diagram id="bMVnpUsRe7kVm7hbhH8q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-20T08:04:50.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8qAPONiX2ei0QKgmYZOk" version="13.8.0" type="github">
+  <diagram id="bMVnpUsRe7kVm7hbhH8q" name="Page-1">
+    <mxGraphModel dx="943" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C990iu7r9GBEBKF5YpmI-1" value="&lt;b&gt;&lt;u&gt;Customer ID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-2" value="Cust Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-3" value="Cust Address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-4" value="&lt;b&gt;&lt;u&gt;Account ID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-5" value="Exp Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-8" value="Card Type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-9" value="&lt;i&gt;CustomerID&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="150" as="sourcePoint" />
+            <mxPoint x="90" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-11" value="CARD ACCOUNT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-12" value="CUSTOMER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-13" value="&lt;b&gt;&lt;u&gt;DAccountID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-14" value="Bank No" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-15" value="Debit Card" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-16" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="C990iu7r9GBEBKF5YpmI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="240" as="sourcePoint" />
+            <mxPoint x="150" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-17" value="&lt;b&gt;&lt;u&gt;CAccountID&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-18" value="Cur Bal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-19" value="Credit Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C990iu7r9GBEBKF5YpmI-20" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="C990iu7r9GBEBKF5YpmI-17" target="C990iu7r9GBEBKF5YpmI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <mxPoint x="510" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
