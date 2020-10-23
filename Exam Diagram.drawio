@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T10:39:14.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.1" etag="jGTdMi8D3SqigEGPHq2Q" type="github"><diagram id="acj0kI88vNg6Fxn12ceG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-23T10:45:17.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Y7kl4dejEh14V7gcX42w" version="13.8.1" type="github">
+  <diagram id="acj0kI88vNg6Fxn12ceG" name="Page-1">
+    <mxGraphModel dx="871" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-1" value="Book" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-2" value="ISBN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-3" value="title&#xa;author(s)&#xa;edition&#xa;year publication&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-1">
+          <mxGeometry y="52" width="150" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-5" value="Borrower" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-6" value="Borrower ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-5">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-7" value="name&#xa;address&#xa;late fees" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-5">
+          <mxGeometry y="52" width="150" height="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
