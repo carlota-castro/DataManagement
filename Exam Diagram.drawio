@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T10:52:18.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="I67mzOC6Dzt2FgeUCCR2" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T10:56:53.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="y2KsFKLR29bxy5ZUUy0w" version="13.8.1" type="github">
   <diagram id="acj0kI88vNg6Fxn12ceG" name="Page-1">
     <mxGraphModel dx="871" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,13 +29,40 @@
           <mxGeometry y="52" width="150" height="78" as="geometry" />
         </mxCell>
         <mxCell id="7qTaBOHYmEMiQZmxTLoO-12" value="Copy" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="450" width="150" height="130" as="geometry" />
+          <mxGeometry x="70" y="450" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7qTaBOHYmEMiQZmxTLoO-13" value="Copy_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-12">
           <mxGeometry y="26" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7qTaBOHYmEMiQZmxTLoO-14" value="Availability for loan&#xa;Allowable loan period&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-12">
           <mxGeometry y="52" width="150" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-15" value="" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7qTaBOHYmEMiQZmxTLoO-3" target="7qTaBOHYmEMiQZmxTLoO-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="400" as="sourcePoint" />
+            <mxPoint x="220" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-16" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="7qTaBOHYmEMiQZmxTLoO-15">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-17" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="300" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-18" value="has" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-19" value="Borrows" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-20" value="Date of loan&lt;br&gt;Date of return" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qTaBOHYmEMiQZmxTLoO-21" value="Is borrowed by" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
